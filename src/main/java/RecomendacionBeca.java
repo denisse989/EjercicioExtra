@@ -9,7 +9,7 @@ public class RecomendacionBeca {
         boolean aplicaBeca=Helpers.applicaBeca(ci);
         if(aplicaBeca){
             int nota=utils.getNota(ci);
-            if (nota>=90){
+            if (nota>=90 && nota<=100){
                 return "SI APLICA A BECA";
             }else {
                 return "NO APLICA A BECA POR PROMEDIO ACADEMICO";

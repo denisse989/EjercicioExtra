@@ -13,3 +13,5 @@ en caso de que el metodo applicaBeca retorne falso se retorna "EL ESTUDIANTE NO 
 tomar en cuenta que un metodo interno es estatico y el otro no.
 
 realizar los unit test mockeando ambos.
+
+0 1 2                49 50 51        99 100 101
