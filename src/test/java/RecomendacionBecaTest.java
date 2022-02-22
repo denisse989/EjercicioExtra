@@ -105,9 +105,7 @@ public class RecomendacionBecaTest {
     }
     @Test
     public void verify8(){
-
         RecomendacionBeca recomendacionBeca=new RecomendacionBeca();
-
         String expectedResult="EL ESTUDIANTE NO CURSO AUN EL 60% DE LAS MATERIAS";
         Assertions.assertEquals(expectedResult,recomendacionBeca.recomendacionBeca(1230),"Error de valores");
     }
@@ -115,7 +113,6 @@ public class RecomendacionBecaTest {
     public void verify9(){
 
         RecomendacionBeca recomendacionBeca=new RecomendacionBeca();
-
         String expectedResult="EL ESTUDIANTE NO CURSO AUN EL 60% DE LAS MATERIAS";
         Assertions.assertEquals(expectedResult,recomendacionBeca.recomendacionBeca(1231),"Error de valores");
     }
