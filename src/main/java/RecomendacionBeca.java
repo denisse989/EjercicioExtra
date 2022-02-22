@@ -1,6 +1,9 @@
 public class RecomendacionBeca {
     Utils utils;
 
+    public RecomendacionBeca() {
+    }
+
     public RecomendacionBeca(Utils objetoMockeado) {
         this.utils = objetoMockeado;
     }
